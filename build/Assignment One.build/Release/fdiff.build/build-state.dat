@@ -1,0 +1,131 @@
+Tfdiff
+v7
+r0
+t286776118.855502
+cCheck dependencies
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004A67D2A800000000000017ED
+t1248318120
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004A124745000000000000578C
+t1242711877
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004A73D92A0000000000001658
+t1249106218
+s5720
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004A67D2A800000000000017ED
+t1248318120
+s6125
+
+N/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004A124745000000000000578C
+t1242711877
+s22412
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c0000000049EE83DA0000000000001658
+t1240368090
+s5720
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Release/fdiff.build/Objects-normal/i386/fdiff.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Release/fdiff.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Release/fdiff
+t2
+s0
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Release/fdiff.dSYM
+t2
+s0
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/main.c
+c000000004B679C1400000000000016A0
+t1265081364
+s5792
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+i<OpenGL/OpenGL.h>
+i<GLUT/GLUT.h>
+i"main.h"
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/main.h
+c000000004B6795250000000000000215
+t1265079589
+s533
+
+N/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/var/folders/CT/CThZXiXqE2ub0okJUNPmXE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-bfcbqymtxnwlnkhiwuhcivgxfatq/AppKit.h.gch
+t2
+s0
+
+N/var/folders/CT/CThZXiXqE2ub0okJUNPmXE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cueprdrkfehanpcmtxsalbddjyrj/AppKit.h.gch
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies286776118#286776118#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC "build/Assignment One.build/Release/fdiff.build/Objects-normal/i386/main.o" "/Users/derek/School/Numerical Solutions to PDE/Assignment One/main.c" normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CGenerateDSYMFile "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Release/fdiff.dSYM" "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Release/fdiff"
+r0
+
+CLd "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Release/fdiff" normal i386
+r0
+
+CProcessPCH /var/folders/CT/CThZXiXqE2ub0okJUNPmXE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-bfcbqymtxnwlnkhiwuhcivgxfatq/AppKit.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/CT/CThZXiXqE2ub0okJUNPmXE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-cueprdrkfehanpcmtxsalbddjyrj/AppKit.h.gch /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 c com.apple.compilers.gcc.4_2
+r0
+

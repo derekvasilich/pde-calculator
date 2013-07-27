@@ -1,0 +1,136 @@
+TXcodeGLUT
+v7
+r0
+t286776164.038690
+cCheck dependencies
+
+N/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004A12475500000000001A2920
+t1242711893
+s1714464
+
+N/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004A124745000000000000578C
+t1242711877
+s22412
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c0000000049EE83DA0000000000001658
+t1240368090
+s5720
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004A73D93D0000000000040130
+t1249106237
+s262448
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Debug/XcodeGLUT.build/Objects-normal/i386/XcodeGLUT.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Debug/XcodeGLUT.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app
+t2
+s0
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app/Contents/Info.plist
+t2
+s0
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app/Contents/MacOS/XcodeGLUT
+t2
+s0
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/main.c
+c000000004B679C1400000000000016A0
+t1265081364
+s5792
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+i<OpenGL/OpenGL.h>
+i<GLUT/GLUT.h>
+i"main.h"
+
+N/Users/derek/School/Numerical Solutions to PDE/Assignment One/main.h
+c000000004B6795250000000000000215
+t1265079589
+s533
+
+N/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+NXcodeGLUT-Info.plist
+c000000004B648D0D000000000000037F
+t1264880909
+s895
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies286776163#286776164#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC "build/Assignment One.build/Debug/XcodeGLUT.build/Objects-normal/i386/main.o" "/Users/derek/School/Numerical Solutions to PDE/Assignment One/main.c" normal i386 c com.apple.compilers.gcc.4_2
+s286776069.669638
+e286776069.840364
+r1
+xCompileC
+xbuild/Assignment One.build/Debug/XcodeGLUT.build/Objects-normal/i386/main.o
+x/Users/derek/School/Numerical Solutions to PDE/Assignment One/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/derek/School/Numerical Solutions to PDE/Assignment One/main.c286776069#286776069#0(0"0(0#0#68"/Users/derek/School/Numerical Solutions to PDE/Assignment One/main.c4300882208#1500"    cd "/Users/derek/School/Numerical Solutions to PDE/Assignment One"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 -iquote "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Debug/XcodeGLUT.build/XcodeGLUT-generated-files.hmap" "-I/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Debug/XcodeGLUT.build/XcodeGLUT-own-target-headers.hmap" "-I/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Debug/XcodeGLUT.build/XcodeGLUT-all-target-headers.hmap" -iquote "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Debug/XcodeGLUT.build/XcodeGLUT-project-headers.hmap" "-F/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug" "-I/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/include" "-I/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Debug/XcodeGLUT.build/DerivedSources/i386" "-I/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Debug/XcodeGLUT.build/DerivedSources" -c "/Users/derek/School/Numerical Solutions to PDE/Assignment One/main.c" -o "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Debug/XcodeGLUT.build/Objects-normal/i386/main.o"0#
+
+CLd "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app/Contents/MacOS/XcodeGLUT" normal i386
+s286776069.840461
+e286776070.060468
+r1
+xLd
+x/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app/Contents/MacOS/XcodeGLUT
+xnormal
+xi386
+lSLF07#2@117"Link /Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app/Contents/MacOS/XcodeGLUT286776069#286776070#0(0"0(0#0#0"4300882208#627"    cd "/Users/derek/School/Numerical Solutions to PDE/Assignment One"    /Developer/usr/bin/gcc-4.2 -arch i386 "-L/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug" "-F/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug" -filelist "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Assignment One.build/Debug/XcodeGLUT.build/Objects-normal/i386/XcodeGLUT.LinkFileList" -framework Foundation -framework AppKit -framework GLUT -framework OpenGL -o "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app/Contents/MacOS/XcodeGLUT"0#
+
+CProcessInfoPlistFile "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app/Contents/Info.plist" XcodeGLUT-Info.plist
+s286691981.646381
+e286691981.650530
+r1
+xProcessInfoPlistFile
+x/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app/Contents/Info.plist
+xXcodeGLUT-Info.plist
+lSLF07#2@28"Process XcodeGLUT-Info.plist286691981#286691981#0(0"0(0#0#82"/Users/derek/School/Numerical Solutions to PDE/Assignment One/XcodeGLUT-Info.plist4300882208#391"    cd "/Users/derek/School/Numerical Solutions to PDE/Assignment One"    builtin-infoPlistUtility XcodeGLUT-Info.plist -genpkginfo "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app/Contents/Info.plist"0#
+
+CTouch "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app"
+s286776070.060559
+e286776070.073025
+r1
+xTouch
+x/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app
+lSLF07#2@93"Touch /Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app286776070#286776070#0(0"0(0#0#0"4300882208#183"    cd "/Users/derek/School/Numerical Solutions to PDE/Assignment One"    /usr/bin/touch -c "/Users/derek/School/Numerical Solutions to PDE/Assignment One/build/Debug/XcodeGLUT.app"0#
+
