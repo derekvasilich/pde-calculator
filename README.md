@@ -1,4 +1,4 @@
 pde-calculator
 ==============
 
-Finite Difference Calculator
+Finite Difference Calculator for solving Hyperbolic PDEs.
