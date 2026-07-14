@@ -28,7 +28,7 @@ The engine isolates algorithmic performance patterns across three core mathemati
 
 ## 📉 Quantitative Finance Validation: 2D Multi-Asset Option Pricing
 
-The engine numerically solves the Black-Scholes PDE for two underlying assets ($S_x, S_y$) under a zero-correlation regime ($\rho = 0$). By applying a log-transform ($x = \ln(S_x)$) and ($y = \ln(S_y)$) and reversing time to calculate forward toward maturity ($\tau = T - t$), the variable-coefficient financial equation maps directly into the engine's constant-coefficient FDM solver loop.
+The engine numerically solves the Black-Scholes PDE for two underlying assets ($S_x, S_y$) under a zero-correlation regime ( $\rho = 0$ ). By applying a log-transform ( $x = \ln(S_x)$ , $y = \ln(S_y)$ ) and reversing time to calculate forward toward maturity ($\tau = T - t$), the variable-coefficient financial equation maps directly into the engine's constant-coefficient FDM solver loop.
 
 ### Financial-to-Engine Parameter Transformation
 
