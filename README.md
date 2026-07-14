@@ -28,13 +28,13 @@ The engine isolates algorithmic performance patterns across three core mathemati
 
 ## 📉 Quantitative Finance Validation: 2D Multi-Asset Option Pricing
 
-The engine numerically solves the Black-Scholes PDE for two underlying assets ($S_x, S_y$) under a zero-correlation regime ($\rho = 0$). By applying a log-transform ($x = \ln(S_x)$, $y = \ln(S_y)$) and reversing time to calculate forward toward maturity ($\tau = T - t$), the variable-coefficient financial equation maps directly into the engine's constant-coefficient FDM solver loop.
+The engine numerically solves the Black-Scholes PDE for two underlying assets ($S_x, S_y$) under a zero-correlation regime ($\rho = 0$). By applying a log-transform ($x = \ln(S_x)$) and ($y = \ln(S_y)$) and reversing time to calculate forward toward maturity ($\tau = T - t$), the variable-coefficient financial equation maps directly into the engine's constant-coefficient FDM solver loop.
 
 ### Financial-to-Engine Parameter Transformation
 
 The physical parameters map to the core mathematical operators as follows:
 
-$\frac{\partial u}{\partial \tau} + \underbrace{\left(\frac{1}{2}\sigma_x^2 - r\right)}_{A_x} \frac{\partial u}{\partial x} + \underbrace{\left(\frac{1}{2}\sigma_y^2 - r\right)}_{A_y} \frac{\partial u}{\partial y} + \underbrace{\left(-\frac{1}{2}\sigma_x^2\right)}_{B_x} \frac{\partial^2 u}{\partial x^2} + \underbrace{\left(-\frac{1}{2}\sigma_y^2\right)}_{B_y} \frac{\partial^2 u}{\partial y^2} + r u = 0$
+$$\frac{\partial u}{\partial \tau} + \underbrace{\left(\frac{1}{2}\sigma_x^2 - r\right)}_{A_x} \frac{\partial u}{\partial x} + \underbrace{\left(\frac{1}{2}\sigma_y^2 - r\right)}_{A_y} \frac{\partial u}{\partial y} + \underbrace{\left(-\frac{1}{2}\sigma_x^2\right)}_{B_x} \frac{\partial^2 u}{\partial x^2} + \underbrace{\left(-\frac{1}{2}\sigma_y^2\right)}_{B_y} \frac{\partial^2 u}{\partial y^2} + r u = 0$$
 
 ### Initial Boundary Conditions (Basket Payoff Matrix)
 At $\tau = 0$ (Option Expiration), the solution grid is initialized using a multi-asset arithmetic or geometric basket payoff function. For a basket call option with strike price $K$:
