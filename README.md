@@ -39,7 +39,7 @@ $$\frac{\partial u}{\partial \tau} + \underbrace{\left(\frac{1}{2}\sigma_x^2 - r
 ### Initial Boundary Conditions (Basket Payoff Matrix)
 At $\tau = 0$ (Option Expiration), the solution grid is initialized using a multi-asset arithmetic or geometric basket payoff function. For a basket call option with strike price $K$:
 
-$u(x, y, 0) = \max\left(e^x + e^y - K, \; 0\right)$
+$$u(x, y, 0) = \max\left(e^x + e^y - K, \; 0\right)$$
 
 ## 🛠️ Architectural & HPC Characteristics
 
